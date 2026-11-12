@@ -1,0 +1,278 @@
+[
+  {
+    "id": "core.appFeedback",
+    "source": "src/client/src/appFeedback.messages.ts"
+  },
+  {
+    "id": "core.commandResults",
+    "source": "src/client/src/commandResults.messages.ts"
+  },
+  {
+    "id": "core.appActions",
+    "source": "src/client/src/components/appActions.messages.ts"
+  },
+  {
+    "id": "core.appShell",
+    "source": "src/client/src/components/appShell/appShell.messages.ts"
+  },
+  {
+    "id": "core.askUser",
+    "source": "src/client/src/components/askUser.messages.ts"
+  },
+  {
+    "id": "core.auth",
+    "source": "src/client/src/components/auth.messages.ts"
+  },
+  {
+    "id": "core.chatActions",
+    "source": "src/client/src/components/chatActions.messages.ts"
+  },
+  {
+    "id": "core.chatChrome",
+    "source": "src/client/src/components/chatChrome.messages.ts"
+  },
+  {
+    "id": "core.chatTranscript",
+    "source": "src/client/src/components/chatTranscript.messages.ts"
+  },
+  {
+    "id": "core.content-renderer",
+    "source": "src/client/src/components/contentRenderer.messages.ts"
+  },
+  {
+    "id": "core.conversationLayout",
+    "source": "src/client/src/components/conversationLayout.messages.ts"
+  },
+  {
+    "id": "core.deprecatedAgentInputs",
+    "source": "src/client/src/components/deprecatedAgentInputs.messages.ts"
+  },
+  {
+    "id": "core.banners",
+    "source": "src/client/src/components/errorBanner.messages.ts"
+  },
+  {
+    "id": "core.extensionDialogs",
+    "source": "src/client/src/components/extensionDialog.messages.ts"
+  },
+  {
+    "id": "core.formattedText",
+    "source": "src/client/src/components/formattedText.messages.ts"
+  },
+  {
+    "id": "core.images",
+    "source": "src/client/src/components/image.messages.ts"
+  },
+  {
+    "id": "core.machines",
+    "source": "src/client/src/components/machine.messages.ts"
+  },
+  {
+    "id": "core.pickers",
+    "source": "src/client/src/components/picker.messages.ts"
+  },
+  {
+    "id": "core.projectWorkspace",
+    "source": "src/client/src/components/projectWorkspace.messages.ts"
+  },
+  {
+    "id": "core.promptEditor",
+    "source": "src/client/src/components/promptEditor.messages.ts"
+  },
+  {
+    "id": "core.runtimeActivity",
+    "source": "src/client/src/components/runtimeActivity.messages.ts"
+  },
+  {
+    "id": "core.sessionCleanup",
+    "source": "src/client/src/components/sessionCleanup.messages.ts"
+  },
+  {
+    "id": "core.sessionNavigation",
+    "source": "src/client/src/components/sessionNavigation.messages.ts"
+  },
+  {
+    "id": "core.sessionNotifications",
+    "source": "src/client/src/components/sessionNotifications.messages.ts"
+  },
+  {
+    "id": "core.sessionTree",
+    "source": "src/client/src/components/sessionTree.messages.ts"
+  },
+  {
+    "id": "core.settingsFeedback",
+    "source": "src/client/src/components/settings/settingsFeedback.messages.ts"
+  },
+  {
+    "id": "core.settingsFrame",
+    "source": "src/client/src/components/settings/settingsFrame.messages.ts"
+  },
+  {
+    "id": "core.restart",
+    "source": "src/client/src/restart.messages.ts"
+  },
+  {
+    "id": "core.settingsGeneral",
+    "source": "src/client/src/components/settings/settingsGeneral.messages.ts"
+  },
+  {
+    "id": "core.settingsLocalization",
+    "source": "src/client/src/components/settings/settingsLocalization.messages.ts"
+  },
+  {
+    "id": "core.settingsMcp",
+    "source": "src/client/src/components/settings/settingsMcp.messages.ts"
+  },
+  {
+    "id": "core.settingsPackages",
+    "source": "src/client/src/components/settings/settingsPackages.messages.ts"
+  },
+  {
+    "id": "core.settingsPlugins",
+    "source": "src/client/src/components/settings/settingsPlugins.messages.ts"
+  },
+  {
+    "id": "core.settingsSessiond",
+    "source": "src/client/src/components/settings/settingsSessiond.messages.ts"
+  },
+  {
+    "id": "core.settingsShortcuts",
+    "source": "src/client/src/components/settings/settingsShortcuts.messages.ts"
+  },
+  {
+    "id": "core.settingsTheme",
+    "source": "src/client/src/components/settings/settingsTheme.messages.ts"
+  },
+  {
+    "id": "core.settingsDialog",
+    "source": "src/client/src/components/settingsDialog.messages.ts"
+  },
+  {
+    "id": "core.statusBar",
+    "source": "src/client/src/components/statusBar.messages.ts"
+  },
+  {
+    "id": "core.toolExecution",
+    "source": "src/client/src/components/toolExecution.messages.ts"
+  },
+  {
+    "id": "core.pendingSession",
+    "source": "src/client/src/controllers/pendingSession.messages.ts"
+  },
+  {
+    "id": "core.piWebStatus",
+    "source": "src/client/src/controllers/piWebStatus.messages.ts"
+  },
+  {
+    "id": "core.projectWorkspaceFeedback",
+    "source": "src/client/src/controllers/projectWorkspace.messages.ts"
+  },
+  {
+    "id": "core.sessionFeedback",
+    "source": "src/client/src/controllers/sessionFeedback.messages.ts"
+  },
+  {
+    "id": "core.pluginRecovery",
+    "source": "src/client/src/pluginRecovery.messages.ts"
+  },
+  {
+    "id": "core.actions",
+    "source": "src/client/src/plugins/core/actions.messages.ts"
+  },
+  {
+    "id": "core.messageActions",
+    "source": "src/client/src/plugins/core/messageActions.messages.ts"
+  },
+  {
+    "id": "plugin:themes:themes",
+    "source": "src/client/src/plugins/themes/themes.messages.ts"
+  },
+  {
+    "id": "core.routeFeedback",
+    "source": "src/client/src/routeFeedback.messages.ts"
+  },
+  {
+    "id": "core.serverNotices",
+    "source": "src/client/src/serverNotices.messages.ts"
+  },
+  {
+    "id": "core.sessionTreeSummary",
+    "source": "src/client/src/sessionTreeSummary.messages.ts"
+  },
+  {
+    "id": "core.workspaceRemoval",
+    "source": "src/client/src/workspaceRemoval.messages.ts"
+  },
+  {
+    "id": "plugin:code-highlight:renderer",
+    "source": "pi-web-plugins/code-highlight/codeHighlight.messages.ts"
+  },
+  {
+    "id": "plugin:files:files",
+    "source": "pi-web-plugins/files/files.messages.ts"
+  },
+  {
+    "id": "plugin:files:runtime",
+    "source": "pi-web-plugins/files/filesRuntime.messages.ts"
+  },
+  {
+    "id": "plugin:git:panel",
+    "source": "pi-web-plugins/git/browser/git.messages.ts"
+  },
+  {
+    "id": "plugin:info:panel",
+    "source": "pi-web-plugins/info/info.messages.ts"
+  },
+  {
+    "id": "plugin:mermaid:preview",
+    "source": "pi-web-plugins/mermaid/mermaid.messages.ts"
+  },
+  {
+    "id": "plugin:pi-web.terminal:terminal",
+    "source": "pi-web-plugins/terminal/terminal.messages.ts"
+  },
+  {
+    "id": "plugin:updates:panel",
+    "source": "pi-web-plugins/updates/updates.messages.ts"
+  },
+  {
+    "id": "plugin:workspace-tasks:tasks",
+    "source": "pi-web-plugins/workspace-tasks/tasks.messages.ts"
+  },
+  {
+    "id": "plugin:relays:browser",
+    "source": "pi-packages/relays/relays.messages.ts"
+  },
+  {
+    "id": "plugin:workflows:worktree",
+    "source": "pi-packages/workflows/browser/workflows.messages.ts"
+  },
+  {
+    "id": "core.activityBadge",
+    "source": "src/client/src/components/activityBadge.messages.ts"
+  },
+  {
+    "id": "core.conversationSyncNotice",
+    "source": "src/client/src/components/conversationSyncNotice.messages.ts"
+  },
+  {
+    "id": "core.copyId",
+    "source": "src/client/src/components/copyIdAction.ts"
+  },
+  {
+    "id": "core.notices",
+    "source": "src/client/src/components/SessionNoticesPanel.messages.ts"
+  },
+  {
+    "id": "core.settingsConfigUpdate",
+    "source": "src/client/src/components/settings/settingsConfigUpdate.messages.ts"
+  },
+  {
+    "id": "core.settingsFileIconTheme",
+    "source": "src/client/src/components/settings/settingsFileIconTheme.messages.ts"
+  },
+  {
+    "id": "core.transcript-renderer",
+    "source": "src/client/src/components/transcriptRenderer.messages.ts"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "@pi-web/language-chinese-plugin",
+  "version": "2026.11.12",
+  "private": true,
+  "piWeb": {
+    "plugins": [
+      {
+        "id": "language-chinese",
+        "defaultEnabled": false,
+        "browserRoot": ".",
+        "module": "pi-web-plugin.js"
+      }
+    ]
+  }
+}
