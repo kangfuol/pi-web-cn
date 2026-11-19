@@ -70,6 +70,8 @@ const namespaces = [
     "core.settingsConfigUpdate",
     "core.settingsFileIconTheme",
     "core.transcript-renderer",
+    "core.listReorder",
+    "core.settingsRestart",
 ];
 
 const plugin = {

@@ -2028,6 +2028,20 @@ const catalogs = {
     "core.transcript-renderer": {
         "defaultView": "默认视图",
         "customView": "自定义视图"
+    },
+    // src/client/src/components/listReorder.messages.ts
+    "core.listReorder": {
+        "movedBefore": "已将 {name} 移到 {neighbor} 之前。",
+        "movedAfter": "已将 {name} 移到 {neighbor} 之后。"
+    },
+    // src/client/src/components/settings/settingsRestart.messages.ts
+    "core.settingsRestart": {
+        "webWarning": "仅重启 {target} 上的 Web/API 服务以应用已保存的网关更改。浏览器会断开连接；会话和终端继续运行。地址可能会变更或不再被允许。",
+        "sessiondWarning": "重启 {target} 上的会话守护程序以应用已保存的设置。这会中断该机器上正在进行的会话、运行中的工作和终端。",
+        "web": "重启 Web/API",
+        "sessiond": "重启会话守护程序",
+        "starting": "正在启动重启…",
+        "failure": "无法启动重启：{error}"
     }
 };
 export default catalogs;

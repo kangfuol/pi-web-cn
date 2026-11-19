@@ -1,6 +1,6 @@
 # pi-web 简体中文语言包
 
-当前版本：**2026.11.12**（版本号按日期定，对应 pi-web 1.202611.2）
+当前版本：**2026.11.19**（版本号按日期定，对应 pi-web 1.202611.5）
 
 PI WEB（Pi Coding Agent 的 Web 界面）的简体中文语言包插件。官方 pi-web 只自带西班牙语和瑞典语语言包，这个包补上简体中文。
 
@@ -8,9 +8,10 @@ English: a Simplified Chinese language pack plugin for PI WEB. The official pi-w
 
 ## 翻译范围
 
-- 69 个命名空间，1821 条界面字符串，全部译自 pi-web **1.202611.2** 的英文原串
+- 71 个命名空间，1829 条界面字符串，全部译自 pi-web **1.202611.5** 的英文原串
 - 占位符、复数 / 选择分支、标签等 ICU 格式与英文原串逐条校验一致
 - 未翻译的内容（品牌名、命令名、路径等）按原文保留
+- 本版新增 `core.listReorder`（列表拖拽排序提示，2 条）和 `core.settingsRestart`（重启服务提示，6 条），均译自 1.202611.5 的英文原串；其余命名空间与 1.202611.2 版一致，未删任何已有翻译（经核对，1.202611.5 仍在使用全部已有命名空间）
 
 ## 安装
 
@@ -45,7 +46,7 @@ pi-web 升级后新增或改名的字符串会回退显示英文，不会报错�
 
 ## 文件说明
 
-- `pi-web-plugin.js` — 插件入口，向 PI WEB 注册 69 个命名空间的中文目录
+- `pi-web-plugin.js` — 插件入口，向 PI WEB 注册 71 个命名空间的中文目录
 - `catalogs.js` — 全部中文翻译（由 `zh-catalogs.json` 生成）
 - `zh-catalogs.json` — 翻译源数据，`{命名空间: {key: 中文}}`
 - `scripts/generate.py` — 从 `zh-catalogs.json` 生成上面两个 JS 文件

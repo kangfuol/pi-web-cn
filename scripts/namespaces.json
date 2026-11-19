@@ -274,5 +274,13 @@
   {
     "id": "core.transcript-renderer",
     "source": "src/client/src/components/transcriptRenderer.messages.ts"
+  },
+  {
+    "id": "core.listReorder",
+    "source": "src/client/src/components/listReorder.messages.ts"
+  },
+  {
+    "id": "core.settingsRestart",
+    "source": "src/client/src/components/settings/settingsRestart.messages.ts"
   }
 ]
